@@ -1,5 +1,3 @@
-import websockets
-import asyncio
 import requests
 
 

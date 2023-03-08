@@ -1,7 +1,6 @@
 import websockets
-import asyncio
 import json
-
+import time
 
 async def get_spot_rates():
     url = "wss://stream.binance.com:9443/stream?streams=btcusdt@miniTicker"
